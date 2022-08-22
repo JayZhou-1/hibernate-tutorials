@@ -21,8 +21,14 @@ The original source code is from **Hibernate Download**, unzip it, workspace/hib
 
     
 # Other tutorial
-https://www.youtube.com/watch?v=KHohVibqePw
 
+* JPA and Hibernate: 
+  * https://www.youtube.com/watch?v=otinfgwkMbY
+  * Hibernate implements JPA, you can either use 1. JPA interfaces or 2. Hibernate interfaces
+  * JPA interface: EntityManagerFactory, EntityManager
+  * Hibernate API: SessionFactory, Session (extends EntityManager)
+* 
+https://www.youtube.com/watch?v=KHohVibqePw
 Hibernate and MySQL: 
 
 ```xml
