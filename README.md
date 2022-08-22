@@ -9,7 +9,7 @@
 *     
 
 # Source Code
-The original source code is from **Hibernate Download**, unzip it, /Users/shuaizhou/workspace/hibernate-release-5.6.5.Final/documentation/quickstart/html_single/hibernate-tutorials. Explanation is: https://docs.jboss.org/hibernate/orm/5.6/quickstart/html_single/ which covers 
+The original source code is from **Hibernate Download**, unzip it, workspace/hibernate-release-5.6.5.Final/documentation/quickstart/html_single/hibernate-tutorials. Explanation is: https://docs.jboss.org/hibernate/orm/5.6/quickstart/html_single/ which covers 
 
 * Tutorial Using Native Hibernate APIs and hbm.xml Mapping
     - basic
