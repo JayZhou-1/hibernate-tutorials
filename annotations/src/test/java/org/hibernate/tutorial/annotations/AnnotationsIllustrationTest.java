@@ -81,7 +81,7 @@ public class AnnotationsIllustrationTest extends TestCase {
         session.beginTransaction();
         List result = session.createQuery( "from Event" ).list();
 		for ( Event event : (List<Event>) result ) {
-			System.out.println( "Event (" + event.getDate() + ") : " + event.getTitle() );
+			System.out.println( "Event (" + event.getDate() + ") : " + event.getTitle() + event.getId() );
 		}
         session.getTransaction().commit();
         session.close();

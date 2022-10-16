@@ -24,6 +24,7 @@
 package org.hibernate.tutorial.annotations;
 
 import java.util.Date;
+import java.util.UUID;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -37,7 +38,8 @@ import org.hibernate.annotations.GenericGenerator;
 @Entity
 @Table( name = "EVENTS" )
 public class Event {
-    private Long id;
+    private UUID id;
+//    private Long id;
 
     private String title;
     private Date date;
@@ -53,13 +55,14 @@ public class Event {
 	}
 
 	@Id
-	@GeneratedValue(generator="increment")
-	@GenericGenerator(name="increment", strategy = "increment")
-    public Long getId() {
+	@GeneratedValue
+//	@GeneratedValue(generator="increment")
+//	@GenericGenerator(name="increment", strategy = "increment")
+    public UUID getId() {
 		return id;
     }
 
-    private void setId(Long id) {
+    private void setId(UUID id) {
 		this.id = id;
     }
 
